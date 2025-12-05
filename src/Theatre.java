@@ -1,3 +1,11 @@
+import show.Show;
+import show.musical.type.Ballet;
+import show.musical.type.Opera;
+import workers.Actor;
+import workers.Director;
+import workers.Gender;
+import workers.Person;
+
 import java.util.ArrayList;
 
 public class Theatre {

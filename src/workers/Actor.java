@@ -1,3 +1,5 @@
+package workers;
+
 import java.util.Objects;
 
 public class Actor extends Person{

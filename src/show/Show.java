@@ -1,7 +1,11 @@
+package show;
+
 import java.util.ArrayList;
+import workers.Director;
+import workers.Actor;
 
 public class Show {
-    String title;
+    protected String title;
     int duration;
     Director director;
     ArrayList<Actor> listOfActors;
