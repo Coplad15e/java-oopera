@@ -28,7 +28,7 @@ public class Show {
 
     public void addActor(Actor actor) {
         if (listOfActors.contains(actor)) {
-            System.out.println("Этот актер уже в списке");
+            System.out.println("Актер, которого вы пытаетесь добавить, уже в списке");
         } else {
             listOfActors.add(actor);
         }

@@ -11,7 +11,7 @@ public class Actor extends Person{
     }
 
     public void printActorInfo() {
-        System.out.println(name + " " + surname + " (" + height + "см)");
+        System.out.printf("%s %s (%d см)%n", name, surname, height);
 
     }
 
